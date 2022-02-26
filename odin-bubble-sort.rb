@@ -1,5 +1,4 @@
 def bubble_sort(array)
-  #magic code
 is_sorted = false
   until is_sorted
     array.each_with_index do |number, i|
@@ -23,5 +22,4 @@ is_sorted = false
   array
 end
 
-# Test
 p bubble_sort([4,3,78,2,0,2])
